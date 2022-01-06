@@ -12,16 +12,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1/people")
 public class PersonController {
 
-    private PersonService personService;
-
-    @Autowired
-    public PersonController(PersonService personService) {
-        this.personService = personService;
+    @GetMapping
+    public String getBook(){
+        return "API TEST!";
     }
 
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public MessageResponseDTO createPerson(@RequestBody Person person) {
-        return personService.createPerson(person);
-    }
 }
