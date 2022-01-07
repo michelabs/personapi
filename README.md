@@ -1,6 +1,6 @@
 <h2> Person API </h2>
 <h3>
-Projeto desenvolvido durante progresso do Bootcamp Java Developer, com auxilío do [Rodrigo Peleias](https://github.com/rpeleias-v1). 
+Projeto desenvolvido durante progresso do Bootcamp Java Developer, com auxilío do <a href=“https://github.com/rpeleias-v1/“>Rodrigo Peleias</a>. 
 </h3>
 Neste projeto fora desenvolvido uma API REST para controle de pessoas, contendo informações básicas de identificação e telefone para contato.
 Durate o desenvolvimento, foram abordados os seguintes tópicos:
